@@ -1,0 +1,1 @@
+import{u as o,r,o as u,c as n,a as e,b as t,l as s,d as l,F as _}from"./index-aee1733f.js";const h={__name:"authorHome",setup(m){const c=o();let a=r(JSON.parse(c.query.dataObj));return(p,f)=>(u(),n(_,null,[e(s,{account:t(a)},null,8,["account"]),e(l,{account:t(a)},null,8,["account"])],64))}};export{h as default};

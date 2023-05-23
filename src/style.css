@@ -1,0 +1,56 @@
+/* 字体大小 */
+.fs-36{
+	font-size: 36px !important;
+}
+.fs-28{
+	font-size: 28px !important;
+}
+.fs-26{
+	font-size: 26px !important;
+}
+.fs-22{
+	font-size: 22px !important;
+}
+.fs-20{
+	font-size: 20px !important;
+}
+.fs-18{
+	font-size: 18px !important;
+}
+.fs-16{
+	font-size: 16px !important;
+}
+.fs-14{
+	font-size: 14px !important;
+}
+.fs-12{
+	font-size: 12px !important;
+}
+
+/* 文字颜色 */
+.color-huise{
+	color: #808080 !important;
+}
+.color-huise2{
+	color: #b3b7c7 !important;
+}
+.color-huise3{
+	color: #c8ccdc !important;
+}
+.color-heise{
+	color: #242424 !important;
+}
+.color-fff{
+	color: #fff !important;
+}
+.color-red{
+	color: #eb3941 !important;
+}
+.color-lvse{
+	color: #00c8b6 !important;
+}
+
+/* 背景颜色 */
+.bg-black{
+	background-color: #000000 !important;
+}
