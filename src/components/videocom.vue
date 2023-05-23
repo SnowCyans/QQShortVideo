@@ -10,7 +10,7 @@
             <van-swipe-item v-for="(item, i) in props.playsData.videos" :key="i">
                 <div class="videos" @touchstart="touchStart" @touchend="touchEnd">
                     <img @click.stop="videoPlay(i)" v-show="item.imgFlag" :src="item.bgImg" class="videos" alt="">
-                    <video v-show="item.imgFlag !== true" @click.stop="videoPlay(i)" :muted="playMuted" preload="auto"
+                    <video v-show="item.imgFlag !== true" @click.stop="videoPlay(i)" :muted="playMuted" preload="metadata"
                         ref="videos" id="videos" :class="item.sizeFlag ? 'videosize' : 'videos'" :src="item.videoUrl" loop>
                         当前设备不支持该视频播放
                     </video>

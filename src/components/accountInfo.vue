@@ -33,7 +33,7 @@
                         <div class="myWork">
                             <div v-for="(item, i) in account.videos" :key="i">
                                 <img v-show="item.imgFlag" :src="item.bgImg" alt="">
-                                <video v-show="item.imgFlag !== true" preload="auto" class="videos"
+                                <video v-show="item.imgFlag !== true" preload="metadata" class="videos"
                                     :src="item.videoUrl"></video>
                             </div>
                         </div>
@@ -48,7 +48,7 @@
                         <div class="myWork">
                             <div v-for="(item, i) in videoStore.collData" :key="i">
                                 <img v-show="item.imgFlag" :src="item.bgImg" alt="">
-                                <video v-show="item.imgFlag !== true" preload="auto" class="videos"
+                                <video v-show="item.imgFlag !== true" preload="metadata" class="videos"
                                     :src="item.videoUrl"></video>
                             </div>
                         </div>
@@ -57,7 +57,7 @@
                         <div class="myWork">
                             <div v-for="(item, i) in videoStore.likeData" :key="i">
                                 <img v-show="item.imgFlag" :src="item.bgImg" alt="">
-                                <video v-show="item.imgFlag !== true" preload="auto" class="videos"
+                                <video v-show="item.imgFlag !== true" preload="metadata" class="videos"
                                     :src="item.videoUrl"></video>
                             </div>
                         </div>
@@ -104,7 +104,7 @@
             <!-- 作品 -->
             <div class="myWork">
                 <div v-for="(item, i) in account.videos" :key="i">
-                    <video @click="handleWork(i)" preload="auto" class="videos" :src="item.videoUrl"></video>
+                    <video @click="handleWork(i)" preload="metadata" class="videos" :src="item.videoUrl"></video>
                     <div class="placeTop">
                         置顶
                     </div>
