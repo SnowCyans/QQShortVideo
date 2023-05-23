@@ -405,27 +405,6 @@ export const useVideoStore = defineStore("videos", {
               },
             ],
           },
-          // {
-          //   videoUrl: "./video/xqDj.avi",
-          //   imgUrl: "./image/xishi2.png",
-          //   likeFlag: false,
-          //   collectionFlag: false,
-          //   text: "你的心有一道墙，但我发现一扇窗，偶尔透出一丝暖暖的微光 #卡塔尔世界杯 #心墙DJ #内马尔",
-          //   name: "QQ",
-          //   time: "2023-05-10",
-          //   likeTotal: 66,
-          //   collTotal: 66,
-          //   chat: [
-          //     {
-          //       flag: true,
-          //       name: "QQ",
-          //       chatImg: "./image/xishi2.png",
-          //       chatText: "妈妈做的糖醋里脊",
-          //       chatLikeShow: false,
-          //       chatTextShow: false,
-          //     },
-          //   ],
-          // },
         ],
       },
       // 收藏的视频数据

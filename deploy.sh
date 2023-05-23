@@ -10,9 +10,9 @@ yarn run build
 cd dist
 
 git add .
-git commit -m 'Q音'
+git commit -m 'Q音打包文件'
 
-# git push -f git@github.com:SnowCyans/QQShortVideo.git master:gh-pages
-git push
+git push -f git@github.com:SnowCyans/ShortVideo.git master:gh-pages
+# git push
 
 # 执行命令 yarn run deploy
