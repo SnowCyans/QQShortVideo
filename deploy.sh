@@ -12,6 +12,7 @@ cd dist
 git add .
 git commit -m 'Q音'
 
-git push -f git@github.com:SnowCyans/QQShortVideo.git master:gh-pages
+# git push -f git@github.com:SnowCyans/QQShortVideo.git master:gh-pages
+git push
 
 # 执行命令 yarn run deploy
